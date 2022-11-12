@@ -27,9 +27,10 @@ function CountryDetails({ countries }) {
   return (
     <div>
       <img
-        src={`https://flagpedia.net/data/flags/icon/72x54/${countrySelecionado.alpha2Code.toLowerCase()}.png`}
+        src={`https://flagpedia.net/data/flags/icon/256x192/${countrySelecionado.alpha2Code.toLowerCase()}.png`}
         alt="countryFlag"
         style={{width:'30%' }}
+        className='mb-4'
       />
 
       <h1>{countrySelecionado.name.official}</h1>
